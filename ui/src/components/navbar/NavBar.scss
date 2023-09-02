@@ -1,0 +1,25 @@
+.navbar {
+    width: 100vw;
+    // background-color: red;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding: 0rem 1.5rem;
+    justify-content: space-between;
+    border-bottom: .8px solid black;
+
+    .div_left {
+        .MuiSvgIcon-root {
+            cursor: pointer;
+        }
+    }
+
+    .div_right {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        .MuiSvgIcon-root {
+            cursor: pointer;
+        }
+    }
+}
